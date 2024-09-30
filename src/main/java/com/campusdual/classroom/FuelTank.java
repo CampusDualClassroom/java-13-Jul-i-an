@@ -8,11 +8,11 @@ public class FuelTank {
     System.out.println("La capacidad actual es de " + getActualFuel() + " litros.");
   }
 
-    public int getActualFuel() {
+  public int getActualFuel() {
     return this.actualFuel;
   }
 
-   int setActualFuel(int fuel) {
+  public int setActualFuel(int fuel) {
     if (0 < fuel)
       this.actualFuel = fuel;
     return this.actualFuel;
